@@ -1,0 +1,9 @@
+/* Aqui entra o seu CSS (DW1) para alterar o que o Bootstrap não faz ou customizar */
+body {
+    background-color: #f8f9fa; /* Um cinza bem clarinho */
+}
+
+.texto-destaque {
+    color: #0d6efd; /* Azul padrão do Bootstrap, mas aplicado via sua própria classe */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* Uma sombrinha leve */
+}
