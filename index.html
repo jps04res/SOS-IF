@@ -17,7 +17,7 @@
         <div class="container">
             <a class="navbar-brand" href="#"></a>
             
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#meuMenu" aria-controls="meuMenu" aria-expanded="false" aria-label="Alternar navegação">
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#meuMenu" aria-controls="meuMenu" aria-expanded="false" aria-label="Alternar navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
@@ -26,34 +26,98 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Menu
+                            Menu do aluno
+
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Sobre nós</a></li>
-                            <li><a class="dropdown-item" href="#">Serviços</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Contato</a></li>
+                            <li><a class="dropdown-item" href="#">Aulas</a></li>
+                            <li><a class="dropdown-item" href="#">Questoes</a></li>
+                            <li><a class="dropdown-item" href="#">Turmas e monitorias</a></li>
                         </ul>
                     </li>
                 </ul>
-                
-                <div class="d-flex">
+                <div class="collapsena na">
                     <a href="login.html" class="btn btn-outline-light">Login</a>
                 </div>
             </div>
         </div>
     </nav>
 <!------------------------------------------ fim da nav----------------------------------- -->
-    <div class="container mt-5 text-center">
-        <h1 class="texto-destaque">Bem-vindo ao meu projeto!</h1>
-        <p class="lead">Este site usa HTML, CSS, Bootstrap e JavaScript.</p>
-        
-        <button id="meuBotao" class="btn btn-primary btn-lg mt-3">Clique em mim</button>
-        
-        <p id="mensagem" class="mt-4 fw-bold text-success" style="display: none;">
-            O JavaScript (DW2) está funcionando perfeitamente! 🎉
-        </p>
-    </div>
+    
+<header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">O suporte escolar definitivo para discentes do IFNMG</h1>
+            <p class="lead mb-5">Materiais, aulas e questões focadas no seu curso técnico. Tudo num só lugar para você alcançar a excelência acadêmica.</p>
+            
+            <a href="cadastro.html" class="btn btn-light btn-lg fw-bold px-5 py-3 shadow">
+                Quero acessar a plataforma <i class="bi bi-arrow-right"></i>
+            </a>
+        </div>
+    </header>
+
+    <section id="sobre" class="py-5">
+        <div class="container mt-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-4 text-dark">Por que o SOS IF foi criado?</h2>
+                    <p class="text-muted" style="font-size: 1.1rem; line-height: 1.8;">
+                        Sabemos que a rotina do Ensino Médio Integrado é desafiadora. O <b>SOS IF</b> nasceu da necessidade de centralizar conteúdos de qualidade para os cursos de Agropecuária, Informática e Vigilância em Saúde. 
+                    </p>
+                    <p class="text-muted" style="font-size: 1.1rem; line-height: 1.8;">
+                        Nossa missão é garantir que nenhum aluno fique para trás, oferecendo suporte contínuo fora da sala de aula.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600&auto=format&fit=crop" alt="Estudantes" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recursos" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-5">Tudo o que você precisa para aprovar</h2>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <div class="card-body">
+                            <i class="bi bi-journal-bookmark recurso-icone"></i>
+                            <h4 class="card-title fw-bold mt-3">Materiais Didáticos</h4>
+                            <p class="card-text text-muted">Acesso exclusivo a resumos, slides das aulas e apostilas separadas por disciplina e ano.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <div class="card-body">
+                            <i class="bi bi-play-circle recurso-icone"></i>
+                            <h4 class="card-title fw-bold mt-3">Vídeo Aulas</h4>
+                            <p class="card-text text-muted">Perdeu alguma explicação? Assista a revisões e aulas gravadas pelos monitores e professores.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <div class="card-body">
+                            <i class="bi bi-pencil-square recurso-icone"></i>
+                            <h4 class="card-title fw-bold mt-3">Banco de Questões</h4>
+                            <p class="card-text text-muted">Treine seus conhecimentos com simulados específicos das matérias do seu curso técnico.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 SOS IF - IFNMG. Todos os direitos reservados.</p>
+            <small class="text-white-50">Desenvolvido como projeto de DW1 e DW2.</small>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     
