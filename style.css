@@ -45,3 +45,10 @@ body {
                 font-size: 3.5rem; /* Aumenta a letra no PC */
             }
         }
+.hd-color{
+    background-color: rgb(38, 71, 4);
+}
+#img-1-alunos{
+    width:200 ;
+    height:200;
+}
