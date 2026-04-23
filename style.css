@@ -45,10 +45,19 @@ body {
                 font-size: 3.5rem; /* Aumenta a letra no PC */
             }
         }
-.hd-color{
-    background-color: rgb(38, 71, 4);
+.hero-section {
+    min-height: 500px; /* Garante uma altura boa para mostrar as fotos */
+    color: white;
+}
+
+/* Ajustes apenas para computadores/telas grandes */
+@media (min-width: 992px) {
+    .hero-section {
+        min-height: 650px; /* Fica maior no PC */
+    }
 }
 #img-1-alunos{
-    width:200 ;
-    height:200;
+    width:600px ;
+    height:500px;
+    padding: 10px;
 }

@@ -11,48 +11,38 @@
 </head>
 <body>
 
-<!----------------------------------------navbar---------------------------------->
+<header class="hero-section position-relative text-center overflow-hidden d-flex align-items-center">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#"></a>
-            
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#meuMenu" aria-controls="meuMenu" aria-expanded="false" aria-label="Alternar navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="meuMenu">
+        <div id="carrosselHero" class="carousel slide carousel-fade position-absolute top-0 start-0 w-100 h-100" data-bs-ride="carousel" style="z-index: 0;">
+            <div class="carousel-inner h-100">
                 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Menu do aluno
-
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Aulas</a></li>
-                            <li><a class="dropdown-item" href="#">Questoes</a></li>
-                            <li><a class="dropdown-item" href="#">Turmas e monitorias</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="collapsena na">
-                    <a href="login.html" class="btn btn-outline-light">Login</a>
+                <div class="carousel-item active h-100">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1200&auto=format&fit=crop" class="d-block w-100 h-100" style="object-fit: cover;" alt="Técnico em Informática">
+                    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 45, 135, 0.457);"></div>
                 </div>
+
+                <div class="carousel-item h-100">
+                    <img src="https://s3.static.brasilescola.uol.com.br/vestibular/2023/09/dia-da-agronoma.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Agropecuária">
+                    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(16, 135, 0, 0.457);"></div>
+                </div>
+
+                <div class="carousel-item h-100">
+                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1200&auto=format&fit=crop" class="d-block w-100 h-100" style="object-fit: cover;" alt="Vigilância em Saúde">
+                    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(135, 0, 0, 0.457);"></div>
+                </div>
+
             </div>
         </div>
-    </nav>
-<!------------------------------------------ fim da nav----------------------------------- -->
-    
-<header class="hero-section text-center hd-color" >
-        <div class="container ">
+
+        <div class="container position-relative text-white" style="z-index: 1;">
             <h1 class="display-4 fw-bold mb-4">O suporte escolar definitivo para discentes do IFNMG</h1>
             <p class="lead mb-5">Materiais, aulas e questões focadas no seu curso técnico. Tudo num só lugar para você alcançar a excelência acadêmica.</p>
             
-            <a href="cadastro.html" class="btn btn-light btn-lg fw-bold px-5 py-3 shadow">
+            <a href="login.html" class="btn btn-light btn-lg fw-bold px-5 py-3 shadow">
                 Quero acessar a plataforma <i class="bi bi-arrow-right"></i>
             </a>
         </div>
+        
     </header>
 
     <section id="sobre" class="py-5">
@@ -68,7 +58,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="images/alunos-img1.jpeg" id="img-1-alunos">
+                    <img src="images/img-index-aluno.jpg" id="img-1-alunos">
                 </div>
             </div>
         </div>
